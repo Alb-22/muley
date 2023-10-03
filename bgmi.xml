@@ -124,7 +124,7 @@ output application/json
         </error-handler>
     </flow>
     <flow name="post:\Intake">
-        <logger level="INFO" doc:name="startLogger" doc:id="aa3af30e-f4d8-422e-93d0-0fd504035504" message='#["The flow for CMM Intake has started"]'/>
+        <logger level="INFO" doc:name="startLogger" doc:id="aa3af30e-f4d8-422e-93d0-0fd504035504" message='#["The flow for BGMI Intake has started"]'/>
 		<flow-ref doc:name="Flow Reference" doc:id="459b2ab9-0281-46d2-952f-2ef3e5e5ae1a" name="cmm-implSub_Flow"/>
 		<ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
             <ee:message>
