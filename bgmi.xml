@@ -138,8 +138,8 @@ output application/json
     correlationId: "1d8b29b0-88cf-11ec-820c-0e3702e84ae7"
   },
   data: {
-    description: "Success",
-    code: "200",
+    description: "Success Received",
+    code: "201",
     timestamp: "2022-02-08T11:06:08.7Z"
   }
 }]]></ee:set-payload>
